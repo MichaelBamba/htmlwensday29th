@@ -20,10 +20,11 @@ p{
     list-style: none;
     max-width: none;
     min-width: none;
-    
+
 }
 .photo-gallery .photo{
-    margin:2px
+    margin:2px;
+    border: 5px;
     flex:1 0 auto;
 }
 .photo img{
