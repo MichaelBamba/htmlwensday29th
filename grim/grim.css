@@ -1,0 +1,21 @@
+html{
+
+
+}
+
+body{
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    background-image: url(img/deciet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%
+   
+}
+p {
+    text-align: left;
+    margin-left: 70px;
+    max-width: 80%;
+    font-size: 20;
+    color:rgb(8, 155, 13)
+}
