@@ -1,0 +1,32 @@
+html{
+    font-size:27px;
+}
+.wraper{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+p{
+    font-size:1rem;
+    line-height: 1rem;
+}
+.photo-gallery{
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    list-style: none;
+    max-width: none;
+    min-width: none;
+    
+}
+.photo-gallery .photo{
+    margin:2px
+    flex:1 0 auto;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+}
