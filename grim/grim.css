@@ -1,21 +1,74 @@
-html{
-
-
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: fill;
 }
 
-body{
+.wrapper{
     text-align: center;
-    margin: 30px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     background-image: url(img/deciet.jpg);
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
    
+    
+
 }
+nav.logo{
+    display: flex;
+    align-self: flex-start;
+}
+nav.basics {
+    display: flex;
+    align-self: flex-end;
+}
+
 p {
-    text-align: left;
-    margin-left: 70px;
-    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 70px;
+    max-width: 80%; */
     font-size: 20;
-    color:rgb(8, 155, 13)
+    color:rgb(8, 155, 13);
+     background-color: rgba(240, 248, 255, 0.18);
 }
+
+@media  screen and (max-width: 800px){
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+        transform: rotate(90deg); background-image:  url(img/deciet.jpg);
+        background-repeat: fill;
+        background-size: auto;
+        height: 50vh;
+        width: fit-content;
+
+    }
+    .break{
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: rotate(90deg);
+        transform: rotate(270deg);
+    }
+    .drunk{
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: rotate(90deg);
+        transform: rotate(270deg);
+        text-align: flex-end;
+        
+        
+    }
+
+   }
